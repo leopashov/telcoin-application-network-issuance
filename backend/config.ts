@@ -66,6 +66,11 @@ export const config = {
       decimals: 2n,
       chain: ChainId.Mainnet,
     },
+    [ChainId.Base]: {
+      address: getAddress("0x467Bccd9d29f223BcE8043b84E8C8B282827790F"),
+      decimals: 2n,
+      chain: ChainId.Base,
+    },
     /*
     [ChainId.TelcoinNetwork]: {
       address: getAddress(""), // use WTEL
